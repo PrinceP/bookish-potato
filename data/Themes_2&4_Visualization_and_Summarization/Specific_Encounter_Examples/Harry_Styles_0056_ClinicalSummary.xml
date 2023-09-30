@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="styles/Summary_CCD_CDA.xsl"?><ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:cda="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <realmCode code="US"/>
+   <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+   <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.1"/>
+   <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+   <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.2"/>
+   <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+   <id root="b0f7c191-810c-3567-8c6b-96bc9272716b"/>
+   <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Clinical Summary"/>
+   <title>Clinical Summary of Harry Styles</title>
+   <effectiveTime value="20230801134302-0700"/>
+   <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+   <languageCode code="en-US"/>
+   <recordTarget>
+      <patientRole>
+         <id extension="0056" root="158939b5-5b79-31a7-a550-ce43c178d8d0"/>
+         <addr use="HP">
+            <streetAddressLine>4141 Hacienda Drive</streetAddressLine>
+            <city>Pleasanton</city>
+            <state>CA</state>
+            <postalCode>94566</postalCode>
+            <country>US</country>
+         </addr>
+         <telecom value="mailto:megha.dontha@medicalmine.com"/>
+         <patient>
+            <name use="L">
+               <given>Harry</given>
+               <family>Styles</family>
+            </name>
+            <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" displayName="male"/>
+            <birthTime value="19760213"/>
+            <raceCode nullFlavor="NI"/>
+            <ethnicGroupCode nullFlavor="NI"/>
+            <languageCommunication>
+               <languageCode code="en"/>
+            </languageCommunication>
+         </patient>
+      </patientRole>
+   </recordTarget>
+   <author>
+      <time value="20230801"/>
+      <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6"/>
+         <addr use="WP">
+            <streetAddressLine nullFlavor="NI"/>
+            <city nullFlavor="NI"/>
+            <state>AL</state>
+            <postalCode nullFlavor="NI"/>
+            <country>US</country>
+         </addr>
+         <telecom use="MC" value="tel:+1(973)-884-4314"/>
+         <telecom value="mailto:ehrdemo@medicalmine.com"/>
+         <assignedPerson>
+            <name>
+               <prefix>Dr. </prefix>
+               <given>Angela</given>
+               <family>Smith</family>
+            </name>
+         </assignedPerson>
+         <representedOrganization>
+            <id root="2.16.840.1.113883.19.5"/>
+            <name>CharmClinic</name>
+            <telecom use="HP" value="tel:+1(833)-986-0106"/>
+            <addr use="WP">
+               <streetAddressLine>300 Commerce St.</streetAddressLine>
+               <city>Nashvile</city>
+               <state>CA</state>
+               <postalCode>12344-5565</postalCode>
+               <country>US</country>
+            </addr>
+         </representedOrganization>
+      </assignedAuthor>
+   </author>
+   <custodian>
+      <assignedCustodian>
+         <representedCustodianOrganization>
+            <id root="2.16.840.1.113883.4.6"/>
+            <name>CharmClinic</name>
+            <telecom use="HP" value="tel:+1(833)-986-0106"/>
+            <addr use="WP">
+               <streetAddressLine>300 Commerce St.</streetAddressLine>
+               <city>Nashvile</city>
+               <state>CA</state>
+               <postalCode>12344-5565</postalCode>
+               <country>US</country>
+            </addr>
+         </representedCustodianOrganization>
+      </assignedCustodian>
+   </custodian>
+   <documentationOf>
+      <serviceEvent classCode="PCPR">
+         <effectiveTime>
+            <low value="20230801"/>
+            <high value="20230801"/>
+         </effectiveTime>
+         <performer typeCode="PRF">
+            <assignedEntity>
+               <id root="2.16.840.1.113883.4.6"/>
+               <code codeSystem="2.16.840.1.113883.6.101" nullFlavor="NI"/>
+               <addr nullFlavor="NI">
+                  <streetAddressLine nullFlavor="NI"/>
+                  <city nullFlavor="NI"/>
+               </addr>
+               <telecom nullFlavor="NI"/>
+               <assignedPerson>
+                  <name>
+                     <given> </given>
+                  </name>
+               </assignedPerson>
+            </assignedEntity>
+         </performer>
+      </serviceEvent>
+   </documentationOf>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.17"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.17"/>
+               <code code="29762-2" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Social History</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Social History Element</th>
+                           <th>Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Patient Sex</td>
+                           <td>male</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry typeCode="DRIV">
+                  <observation classCode="OBS" moodCode="EVN">
+                     <templateId root="2.16.840.1.113883.10.20.22.4.78"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.78"/>
+                     <code nullFlavor="NI"/>
+                     <statusCode code="completed"/>
+                     <effectiveTime>
+                        <low nullFlavor="NI"/>
+                     </effectiveTime>
+                     <value nullFlavor="NI" xsi:type="CD"/>
+                  </observation>
+               </entry>
+               <entry typeCode="DRIV">
+                  <observation classCode="OBS" moodCode="EVN">
+                     <templateId extension="2016-06-01" root="2.16.840.1.113883.10.20.22.4.200"/>
+                     <code code="76689-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     <statusCode code="completed"/>
+                     <value code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Male" xsi:type="CD"/>
+                  </observation>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.4.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+               <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS"/>
+               <title>VITAL SIGNS</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Vitals</th>
+                           <th>Value</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td colspan="2">Recorded on 02/09/2023</td>
+                        </tr>
+                        <tr>
+                           <td>Weight</td>
+                           <td>122 lbs</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <organizer classCode="CLUSTER" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.26"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+                     <id root="89c137d1-704e-35ef-b45e-bc6f709cf3d6"/>
+                     <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT">
+                        <translation code="74728-7" codeSystem="2.16.840.1.113883.6.1"/>
+                     </code>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230209"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202302090208-0800"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                     <component>
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                           <id root="8c489d09-46f6-3d17-973f-26366a4bf620"/>
+                           <code code="29463-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Weight"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime value="20230209"/>
+                           <value unit="[lb_av]" value="122" xsi:type="PQ"/>
+                           <author>
+                              <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                              <time value="202302090208-0800"/>
+                              <assignedAuthor>
+                                 <id root="2.16.840.1.113883.4.6"/>
+                                 <assignedPerson>
+                                    <name>
+                                       <prefix>Dr. </prefix>
+                                       <given>Angela</given>
+                                       <family>Smith</family>
+                                    </name>
+                                 </assignedPerson>
+                                 <representedOrganization>
+                                    <id root="2.16.840.1.113883.19.5"/>
+                                    <name>Shesh Demo Acnt</name>
+                                 </representedOrganization>
+                              </assignedAuthor>
+                           </author>
+                        </observation>
+                     </component>
+                     <component>
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                           <id root="eec6c4bd-bd33-3edf-8cbe-a68becb85244"/>
+                           <code code="8302-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Height"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime value="20230209"/>
+                           <value unit="[in_i]" value="0" xsi:type="PQ"/>
+                           <author>
+                              <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                              <time value="202302090208-0800"/>
+                              <assignedAuthor>
+                                 <id root="2.16.840.1.113883.4.6"/>
+                                 <assignedPerson>
+                                    <name>
+                                       <prefix>Dr. </prefix>
+                                       <given>Angela</given>
+                                       <family>Smith</family>
+                                    </name>
+                                 </assignedPerson>
+                                 <representedOrganization>
+                                    <id root="2.16.840.1.113883.19.5"/>
+                                    <name>Shesh Demo Acnt</name>
+                                 </representedOrganization>
+                              </assignedAuthor>
+                           </author>
+                        </observation>
+                     </component>
+                  </organizer>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.6.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+               <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+               <title>Allergies</title>
+               <text>No records available</text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.30"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+                     <id nullFlavor="NI"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="completed"/>
+                     <effectiveTime>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.7"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                           <id nullFlavor="NI"/>
+                           <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low nullFlavor="UNK"/>
+                           </effectiveTime>
+                           <value code="419199007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Allergy to substance" xsi:type="CD"/>
+                           <participant typeCode="CSM">
+                              <participantRole classCode="MANU">
+                                 <playingEntity classCode="MMAT">
+                                    <code nullFlavor="NI"/>
+                                 </playingEntity>
+                              </participantRole>
+                           </participant>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.5.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+               <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PROBLEM LIST"/>
+               <title>PROBLEMS</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Problem</th>
+                           <th>Status</th>
+                           <th>Start Date</th>
+                           <th>Stop Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Asthma , [SNOMED CT: 195967001]</td>
+                           <td>Active</td>
+                           <td>02/28/2023</td>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="e8fec8c5-f537-3d3d-9d83-d2a070b89bc6"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230228"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="bb22def5-c402-346c-801b-c79dcc823184"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230228"/>
+                           </effectiveTime>
+                           <value code="195967001" codeSystem="2.16.840.1.113883.6.96" displayName="Asthma" xsi:type="CD"/>
+                           <author>
+                              <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                              <time value="202302280217-0800"/>
+                              <assignedAuthor>
+                                 <id root="2.16.840.1.113883.4.6"/>
+                                 <assignedPerson>
+                                    <name>
+                                       <prefix>Dr. </prefix>
+                                       <given>Angela</given>
+                                       <family>Smith</family>
+                                    </name>
+                                 </assignedPerson>
+                                 <representedOrganization>
+                                    <id root="2.16.840.1.113883.19.5"/>
+                                    <name>Shesh Demo Acnt</name>
+                                 </representedOrganization>
+                              </assignedAuthor>
+                           </author>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.1.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+               <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF MEDICATION USE"/>
+               <title>Medications/Supplements</title>
+               <text>
+                  <paragraph>Medications</paragraph>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Medication</th>
+                           <th>Directions</th>
+                           <th>Status</th>
+                           <th>Start Date</th>
+                           <th>Stop Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td ID="Medication1">desvenlafaxine 50 mg oral tablet, extended release [ Pristiq ]</td>
+                           <td>1 tablet(s) once a day  for 30 Day(s), oral, same time daily</td>
+                           <td>Active</td>
+                           <td>03/23/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication2">zolpidem 12.5 mg oral tablet, extended release [ Zolpidem Tartrate ER ]</td>
+                           <td>1 tablet(s) , oral route</td>
+                           <td>Active</td>
+                           <td>02/09/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication3">onasemnogene abeparvovec 20 trillion vg/mL intravenous kit [ Zolgensma (11.6-12.0 kg) ]</td>
+                           <td>2 application once a day before a meal for 7 Day(s), oral route</td>
+                           <td>Active</td>
+                           <td>02/09/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication4">ZOLMitriptan 2.5 mg nasal spray [ Zolmitriptan ]</td>
+                           <td>2 ml once a day at bedtime for 14 Day(s), oral route</td>
+                           <td>Active</td>
+                           <td>02/09/2023</td>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Supplements</paragraph>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Supplement</th>
+                           <th>Directions</th>
+                           <th>Status</th>
+                           <th>Start Date</th>
+                           <th>Stop Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>RAW Probiotics Men 50 &amp; Wiser 90 vcaps</td>
+                           <td>1 g/kg,Once a week,AM and before bed</td>
+                           <td>Active</td>
+                           <td>02/09/2023</td>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="d6e7629e-c095-34fb-9964-b2822066bdae"/>
+                     <text>
+                        <reference value="#Medication1"/>1 tablet(s) once a day  for 30 Day(s), oral, same time daily</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230323"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity nullFlavor="NI"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="addfda39-3bab-37c8-8e01-5229c37bb9a2"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 50 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202303230808-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="ea4fb781-ab81-3957-9401-927c6d3b57d0"/>
+                     <text>
+                        <reference value="#Medication2"/>1 tablet(s) , oral route</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230209"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="ad34caf8-3cc4-3427-83f9-b6187a8bc384"/>
+                           <manufacturedMaterial>
+                              <code code="854880" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="zolpidem 12.5 mg oral tablet, extended release"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202302090210-0800"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="7fa7dd02-5cf1-3ab9-a6f3-78858ea9f786"/>
+                     <text>
+                        <reference value="#Medication3"/>2 application once a day before a meal for 7 Day(s), oral route</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230209"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="INTRAVENOUS"/>
+                     <doseQuantity value="2"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="af51f9cc-e82c-3f65-a3c4-4679808dfbe1"/>
+                           <manufacturedMaterial>
+                              <code code="2170267" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="onasemnogene abeparvovec 20 trillion vg/mL intravenous kit"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202302090315-0800"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="699afd9e-ce98-32ff-b8bb-67f519f532cc"/>
+                     <text>
+                        <reference value="#Medication4"/>2 ml once a day at bedtime for 14 Day(s), oral route</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230209"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38284" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="NASAL"/>
+                     <doseQuantity value="2"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="e2999495-1b22-3c6b-a8d0-cc589ffb0b08"/>
+                           <manufacturedMaterial>
+                              <code code="1483677" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="ZOLMitriptan 2.5 mg nasal spray"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202302090319-0800"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="c452f809-9cdc-39d7-8992-ee495395bc86"/>
+                     <text>
+                        <reference value="#Supplement1"/>1 g/kg,Once a week,AM and before bed</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230209"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="13b151b1-c489-3434-b79f-d69404f58cf3"/>
+                           <manufacturedMaterial>
+                              <code nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                  </substanceAdministration>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.14"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.14"/>
+               <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Functional Status"/>
+               <title>Functional Status</title>
+               <text>No information</text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.56"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.56"/>
+               <code code="10190-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="MENTAL STATUS"/>
+               <title>MENTAL STATUS</title>
+               <text>No information</text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.3.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+               <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RELEVANT DIAGNOSTIC TESTS AND/OR LABORATORY DATA"/>
+               <title>Lab/Image Results</title>
+               <text>No Lab/Image Results information</text>
+               <entry>
+                  <organizer classCode="BATTERY" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.1"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+                     <id nullFlavor="NI"/>
+                     <code displayName="TEST_NAME" nullFlavor="NI"/>
+                     <statusCode code="completed"/>
+                     <effectiveTime>
+                        <low nullFlavor="UNK"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <component>
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.2"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                           <id nullFlavor="NI"/>
+                           <code nullFlavor="NI"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low nullFlavor="UNK"/>
+                           </effectiveTime>
+                           <value nullFlavor="NI" xsi:type="ST"/>
+                        </observation>
+                     </component>
+                  </organizer>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.2.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.2.1"/>
+               <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations"/>
+               <title>Immunizations</title>
+               <text>No known immunization history</text>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.52"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.52"/>
+                     <id nullFlavor="NI"/>
+                     <statusCode code="completed"/>
+                     <effectiveTime nullFlavor="NI" xsi:type="IVL_TS"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.54"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.54"/>
+                           <manufacturedMaterial>
+                              <code nullFlavor="NI"/>
+                              <lotNumberText nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                  </substanceAdministration>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+               <code code="47519-4" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Procedures</title>
+               <text>No Procedure information</text>
+               <entry>
+                  <procedure classCode="PROC" moodCode="EVN">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.14"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+                     <id nullFlavor="NI"/>
+                     <code nullFlavor="NI"/>
+                     <statusCode code="completed"/>
+                  </procedure>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.22.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.22.1"/>
+               <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of encounters"/>
+               <title>Encounter Diagnosis</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Problem</th>
+                           <th>Status</th>
+                           <th>Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Asthma , [SNOMED CT: 195967001]</td>
+                           <td>Active</td>
+                           <td>02/28/2023</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <encounter classCode="ENC" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <id root="e8fec8c5-f537-3d3d-9d83-d2a070b89bc6"/>
+                     <code/>
+                     <effectiveTime>
+                        <low value="20230228"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <act classCode="ACT" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" xsi:type="CE"/>
+                           <entryRelationship typeCode="SUBJ">
+                              <observation classCode="OBS" moodCode="EVN">
+                                 <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <id root="bb22def5-c402-346c-801b-c79dcc823184"/>
+                                 <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                 </code>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20230228"/>
+                                 </effectiveTime>
+                                 <value code="195967001" codeSystem="2.16.840.1.113883.6.96" displayName="Asthma" xsi:type="CD"/>
+                              </observation>
+                           </entryRelationship>
+                        </act>
+                     </entryRelationship>
+                  </encounter>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId root="2.16.840.1.113883.10.20.22.2.8"/>
+               <code code="51848-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ASSESSMENTS"/>
+               <title>ASSESSMENTS</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Assessment Notes</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>02/09/2023</td>
+                           <td>something</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.10"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.10"/>
+               <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="Treatment plan"/>
+               <title>TREATMENT PLAN</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Notes</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>02/09/2023</td>
+                           <td>something</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Full face mask 1 per 3 mo, mask cushion 1 per mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamber 1 per 6 mo Duration 99</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Mask Fitting</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Auto CPAP Machine, Resmed or Respironics Heated tubing, Heated humidifier, smart card, wireless connectivity, with AHI and leak reporting. Duration of need 99</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Nasal mask 1 per 3 mo, nasal mask cushion 2 per mo, chin strap 1 per 6 mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamb</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Full face mask 1 per 3 mo, mask cushion 1 per mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamber 1 per 6 mo Duration 99</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Mask Fitting</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Nasal mask 1 per 3 mo, nasal mask cushion 2 per mo, chin strap 1 per 6 mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamb</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Auto CPAP Machine, Resmed or Respironics Heated tubing, Heated humidifier, smart card, wireless connectivity, with AHI and leak reporting. Duration of need 99</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Full face mask 1 per 3 mo, mask cushion 1 per mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamber 1 per 6 mo Duration 99</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Mask Fitting</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Nasal mask 1 per 3 mo, nasal mask cushion 2 per mo, chin strap 1 per 6 mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamb</td>
+                        </tr>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>Auto CPAP Machine, Resmed or Respironics Heated tubing, Heated humidifier, smart card, wireless connectivity, with AHI and leak reporting. Duration of need 99</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="215d40c5-9c96-39b8-a6d3-0662e78b589a"/>
+                     <code displayName="Full face mask 1 per 3 mo, mask cushion 1 per mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamber 1 per 6 mo Duration 99" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="4b240c69-00a5-39c3-a70a-ef0297d983c6"/>
+                     <code displayName="Mask Fitting" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="948642be-9e97-3733-bf0c-edf3f7784fb2"/>
+                     <code displayName="Auto CPAP Machine, Resmed or Respironics Heated tubing, Heated humidifier, smart card, wireless connectivity, with AHI and leak reporting. Duration of need 99" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="544575a5-0c65-3e4e-92be-9ca15b1f77c2"/>
+                     <code displayName="Nasal mask 1 per 3 mo, nasal mask cushion 2 per mo, chin strap 1 per 6 mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamb" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="215d40c5-9c96-39b8-a6d3-0662e78b589a"/>
+                     <code displayName="Full face mask 1 per 3 mo, mask cushion 1 per mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamber 1 per 6 mo Duration 99" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="4b240c69-00a5-39c3-a70a-ef0297d983c6"/>
+                     <code displayName="Mask Fitting" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="544575a5-0c65-3e4e-92be-9ca15b1f77c2"/>
+                     <code displayName="Nasal mask 1 per 3 mo, nasal mask cushion 2 per mo, chin strap 1 per 6 mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamb" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="948642be-9e97-3733-bf0c-edf3f7784fb2"/>
+                     <code displayName="Auto CPAP Machine, Resmed or Respironics Heated tubing, Heated humidifier, smart card, wireless connectivity, with AHI and leak reporting. Duration of need 99" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="215d40c5-9c96-39b8-a6d3-0662e78b589a"/>
+                     <code displayName="Full face mask 1 per 3 mo, mask cushion 1 per mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamber 1 per 6 mo Duration 99" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="4b240c69-00a5-39c3-a70a-ef0297d983c6"/>
+                     <code displayName="Mask Fitting" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="544575a5-0c65-3e4e-92be-9ca15b1f77c2"/>
+                     <code displayName="Nasal mask 1 per 3 mo, nasal mask cushion 2 per mo, chin strap 1 per 6 mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamb" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="948642be-9e97-3733-bf0c-edf3f7784fb2"/>
+                     <code displayName="Auto CPAP Machine, Resmed or Respironics Heated tubing, Heated humidifier, smart card, wireless connectivity, with AHI and leak reporting. Duration of need 99" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230718"/>
+                  </observation>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId root="2.16.840.1.113883.10.20.22.2.60"/>
+               <code code="61146-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Goals"/>
+               <title>Goals</title>
+               <text>No records available</text>
+               <entry>
+                  <observation classCode="OBS" moodCode="GOL">
+                     <templateId root="2.16.840.1.113883.10.20.22.4.121"/>
+                     <id nullFlavor="NI"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     <text>
+                        <reference nullFlavor="NI"/>
+                     </text>
+                     <statusCode code="active"/>
+                  </observation>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.58"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.58"/>
+               <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concerns Document"/>
+               <title>Health Concerns</title>
+               <text>No information</text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.132"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.132"/>
+                     <id nullFlavor="NI"/>
+                     <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concern"/>
+                     <statusCode code="active"/>
+                     <effectiveTime nullFlavor="NI"/>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId root="2.16.840.1.113883.10.20.22.2.12"/>
+               <code code="29299-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="REASON FOR VISIT"/>
+               <title>REASON FOR VISIT</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Appointment Date</th>
+                           <th>Reason for Visit</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>02/09/2023</td>
+                           <td>something</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.23"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.23"/>
+               <code code="46264-8" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Implants</title>
+               <text>No implanted devices</text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+               <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+               <code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="REASON FOR REFERRAL"/>
+               <title>REASON FOR REFERRAL</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Referred To</th>
+                           <th>Reason for Referral</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td>DME  DME</td>
+                           <td>Breathing difficulties </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <act classCode="PCPR" moodCode="RQO">
+                     <templateId root="2.16.840.1.113883.10.20.22.4.140"/>
+                     <id root="338c8173-75a1-3427-84ef-1465dcb309d6"/>
+                     <code code="44383000" codeSystem="2.16.840.1.113883.6.96" displayName="Patient referral for consultation"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230718"/>
+                     </effectiveTime>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="20230718"/>
+                        <assignedAuthor>
+                           <id root="32471c6d-c52a-36b7-b93c-e13162fa1716"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <telecom use="HP" value="tel:+1(833)-986-0106"/>
+                              <addr use="WP">
+                                 <streetAddressLine>300 Commerce St.</streetAddressLine>
+                                 <city>Nashvile</city>
+                                 <state>CA</state>
+                                 <postalCode>12344-5565</postalCode>
+                                 <country>US</country>
+                              </addr>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.2.65"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.65"/>
+               <code code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Consultation Note"/>
+               <title>Notes section</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Consultation Note</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>07/18/2023</td>
+                           <td ID="consultationNote_1">
+Order ID                             Ordered Date: 
+Jul 18, 2023
+Patient Name
+ID
+GENDER
+DOB
+Address
+Home #
+Cell #
+Harry Styles
+0056
+Feb 13, 1976
+4141 Hacienda Drive
+Pleasanton, CA 94566
+Guarantor 
+Address
+Phone
+Ordered By
+Address
+Phone
+Fax
+NPI
+Dr. Angela Smith
+4000 Highland Rd Suite 130
+Waterford, MI 483282167
+(248)681-7909
+(248)-681-0455
+1649240177
+PCP
+Address
+Phone     
+Fax
+NPI
+Orders
+DME order - Full face mask 1 per 3 mo, mask cushion 1 per mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamber 1 per 6 mo Duration 99[ 78370 ] .
+DME order - Mask Fitting[ 77109 ] .
+DME order - Nasal mask 1 per 3 mo, nasal mask cushion 2 per mo, chin strap 1 per 6 mo, tubing 1 per 3 mo, headgear 1 per 6 mo, disp filter 2 per mo, non disp filter 1 per 6 mo, heated humidifier, humidifier chamb[ 78371 ] .
+DME order - Auto CPAP Machine, Resmed or Respironics Heated tubing, Heated humidifier, smart card, wireless connectivity, with AHI and leak reporting. Duration of need 99[ 71479 ] .
+Diagnosis
+Timing
+Fasting
+Source
+Copy To
+Ordering Provider
+Dr. Angela Smith
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <code code="34109-9" codeSystem="2.16.840.1.113883.6.1">
+                        <translation code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     </code>
+                     <text>
+                        <reference value="#consultationNote_1"/>
+                     </text>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230718"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202307181133-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.2.65"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.65"/>
+               <code code="18842-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Discharge Summary Note"/>
+               <title>Notes section</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Summary Note</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>02/09/2023</td>
+                           <td ID="summaryNote_1">Instructions : something
+Diets : something
+Lifestyle : something</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <code code="34109-9" codeSystem="2.16.840.1.113883.6.1">
+                        <translation code="18842-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     </code>
+                     <text>
+                        <reference value="#summaryNote_1"/>
+                     </text>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230209"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202302090208-0800"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.2.65"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.65"/>
+               <code code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History and Physical Note"/>
+               <title>Notes section</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Notes Type</th>
+                           <th>Summary Note</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>02/09/2023</td>
+                           <td>History of Present Illness</td>
+                           <td ID="historyNote_1">something</td>
+                        </tr>
+                        <tr>
+                           <td>02/09/2023</td>
+                           <td>Review of Systems</td>
+                           <td ID="historyNote_2">something</td>
+                        </tr>
+                        <tr>
+                           <td>02/09/2023</td>
+                           <td>Past Medical History</td>
+                           <td ID="historyNote_3">something</td>
+                        </tr>
+                        <tr>
+                           <td>02/09/2023</td>
+                           <td>Physical Examination</td>
+                           <td ID="historyNote_4">something</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <code code="34109-9" codeSystem="2.16.840.1.113883.6.1">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     </code>
+                     <text>
+                        <reference value="#historyNote_1"/>
+                     </text>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230209"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202302090208-0800"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <code code="34109-9" codeSystem="2.16.840.1.113883.6.1">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     </code>
+                     <text>
+                        <reference value="#historyNote_2"/>
+                     </text>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230209"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202302090208-0800"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <code code="34109-9" codeSystem="2.16.840.1.113883.6.1">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     </code>
+                     <text>
+                        <reference value="#historyNote_3"/>
+                     </text>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230209"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202302090208-0800"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <code code="34109-9" codeSystem="2.16.840.1.113883.6.1">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     </code>
+                     <text>
+                        <reference value="#historyNote_4"/>
+                     </text>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230209"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202302090208-0800"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <prefix>Dr. </prefix>
+                                 <given>Angela</given>
+                                 <family>Smith</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Shesh Demo Acnt</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</ClinicalDocument>

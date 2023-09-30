@@ -1,0 +1,2539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="styles/Summary_CCD_CDA.xsl"?><ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:cda="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <realmCode code="US"/>
+   <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+   <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.1"/>
+   <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+   <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.2"/>
+   <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+   <id root="45960517-2bf1-3bc9-b4b8-e480fd60987e"/>
+   <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Clinical Summary"/>
+   <title>Clinical Summary of Brock Purdy</title>
+   <effectiveTime value="20230801133303-0700"/>
+   <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+   <languageCode code="en-US"/>
+   <recordTarget>
+      <patientRole>
+         <id extension="0059" root="47f91082-e4cc-3d6d-8fcf-49d5aa6f3711"/>
+         <addr use="HP">
+            <streetAddressLine nullFlavor="NI"/>
+            <city>Queen Creek</city>
+            <state>AZ</state>
+            <postalCode nullFlavor="NI"/>
+            <country>US</country>
+         </addr>
+         <telecom value="mailto:matt.techler@zohocorp.com"/>
+         <patient>
+            <name use="L">
+               <given>Brock</given>
+               <family>Purdy</family>
+            </name>
+            <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" displayName="male"/>
+            <birthTime value="19991227"/>
+            <raceCode nullFlavor="NI"/>
+            <ethnicGroupCode nullFlavor="NI"/>
+            <languageCommunication>
+               <languageCode code="en"/>
+            </languageCommunication>
+         </patient>
+      </patientRole>
+   </recordTarget>
+   <author>
+      <time value="20230801"/>
+      <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6"/>
+         <addr use="WP">
+            <streetAddressLine nullFlavor="NI"/>
+            <city nullFlavor="NI"/>
+            <state>AL</state>
+            <postalCode nullFlavor="NI"/>
+            <country>US</country>
+         </addr>
+         <telecom use="MC" value="tel:+1(973)-884-4314"/>
+         <telecom value="mailto:ehrdemo@medicalmine.com"/>
+         <assignedPerson>
+            <name>
+               <prefix>Dr. </prefix>
+               <given>Angela</given>
+               <family>Smith</family>
+            </name>
+         </assignedPerson>
+         <representedOrganization>
+            <id root="2.16.840.1.113883.19.5"/>
+            <name>CharmClinic</name>
+            <telecom use="HP" value="tel:+1(833)-986-0106"/>
+            <addr use="WP">
+               <streetAddressLine>300 Commerce St.</streetAddressLine>
+               <city>Nashvile</city>
+               <state>CA</state>
+               <postalCode>12344-5565</postalCode>
+               <country>US</country>
+            </addr>
+         </representedOrganization>
+      </assignedAuthor>
+   </author>
+   <custodian>
+      <assignedCustodian>
+         <representedCustodianOrganization>
+            <id root="2.16.840.1.113883.4.6"/>
+            <name>CharmClinic</name>
+            <telecom use="HP" value="tel:+1(833)-986-0106"/>
+            <addr use="WP">
+               <streetAddressLine>300 Commerce St.</streetAddressLine>
+               <city>Nashvile</city>
+               <state>CA</state>
+               <postalCode>12344-5565</postalCode>
+               <country>US</country>
+            </addr>
+         </representedCustodianOrganization>
+      </assignedCustodian>
+   </custodian>
+   <documentationOf>
+      <serviceEvent classCode="PCPR">
+         <effectiveTime>
+            <low value="20230801"/>
+            <high value="20230801"/>
+         </effectiveTime>
+         <performer typeCode="PRF">
+            <assignedEntity>
+               <id root="2.16.840.1.113883.4.6"/>
+               <code codeSystem="2.16.840.1.113883.6.101" nullFlavor="NI"/>
+               <addr nullFlavor="NI">
+                  <streetAddressLine nullFlavor="NI"/>
+                  <city nullFlavor="NI"/>
+               </addr>
+               <telecom nullFlavor="NI"/>
+               <assignedPerson>
+                  <name>
+                     <given> </given>
+                  </name>
+               </assignedPerson>
+            </assignedEntity>
+         </performer>
+      </serviceEvent>
+   </documentationOf>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.17"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.17"/>
+               <code code="29762-2" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Social History</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Social History Element</th>
+                           <th>Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Patient Sex</td>
+                           <td>male</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry typeCode="DRIV">
+                  <observation classCode="OBS" moodCode="EVN">
+                     <templateId root="2.16.840.1.113883.10.20.22.4.78"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.78"/>
+                     <code nullFlavor="NI"/>
+                     <statusCode code="completed"/>
+                     <effectiveTime>
+                        <low nullFlavor="NI"/>
+                     </effectiveTime>
+                     <value nullFlavor="NI" xsi:type="CD"/>
+                  </observation>
+               </entry>
+               <entry typeCode="DRIV">
+                  <observation classCode="OBS" moodCode="EVN">
+                     <templateId extension="2016-06-01" root="2.16.840.1.113883.10.20.22.4.200"/>
+                     <code code="76689-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     <statusCode code="completed"/>
+                     <value code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Male" xsi:type="CD"/>
+                  </observation>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.4.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+               <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS"/>
+               <title> </title>
+               <text>No Vital information</text>
+               <entry>
+                  <organizer classCode="CLUSTER" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.26"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+                     <id nullFlavor="NI"/>
+                     <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT">
+                        <translation code="74728-7" codeSystem="2.16.840.1.113883.6.1"/>
+                     </code>
+                     <statusCode code="completed"/>
+                     <effectiveTime nullFlavor="NI"/>
+                     <component>
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                           <id nullFlavor="NI"/>
+                           <code nullFlavor="NI"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime nullFlavor="NI"/>
+                           <value nullFlavor="NI" xsi:type="PQ"/>
+                        </observation>
+                     </component>
+                  </organizer>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.6.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+               <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+               <title>Allergies</title>
+               <text>No records available</text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.30"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+                     <id nullFlavor="NI"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="completed"/>
+                     <effectiveTime>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.7"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                           <id nullFlavor="NI"/>
+                           <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low nullFlavor="UNK"/>
+                           </effectiveTime>
+                           <value code="419199007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Allergy to substance" xsi:type="CD"/>
+                           <participant typeCode="CSM">
+                              <participantRole classCode="MANU">
+                                 <playingEntity classCode="MMAT">
+                                    <code nullFlavor="NI"/>
+                                 </playingEntity>
+                              </participantRole>
+                           </participant>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.5.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+               <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PROBLEM LIST"/>
+               <title>PROBLEMS</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Problem</th>
+                           <th>Status</th>
+                           <th>Start Date</th>
+                           <th>Stop Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Post-traumatic stress disorder , [SNOMED CT: 47505003]</td>
+                           <td>Active</td>
+                           <td>06/16/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Post-traumatic stress disorder , [SNOMED CT: 47505003]</td>
+                           <td>Active</td>
+                           <td>05/22/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Chronic post-traumatic stress disorder , [SNOMED CT: 313182004]</td>
+                           <td>Active</td>
+                           <td>05/22/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Mild depression , [SNOMED CT: 310495003]</td>
+                           <td>Active</td>
+                           <td>05/22/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Severe major depression, single episode , [SNOMED CT: 251000119105]</td>
+                           <td>Active</td>
+                           <td>05/22/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Major depression in partial remission , [SNOMED CT: 30605009]</td>
+                           <td>Active</td>
+                           <td>05/22/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Post-traumatic stress disorder , [SNOMED CT: 47505003]</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Chronic post-traumatic stress disorder , [SNOMED CT: 313182004]</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Post-traumatic stress disorder , [SNOMED CT: 47505003]</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Chronic post-traumatic stress disorder , [SNOMED CT: 313182004]</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Post-traumatic stress disorder , [SNOMED CT: 47505003]</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Chronic post-traumatic stress disorder , [SNOMED CT: 313182004]</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Mild depression , [SNOMED CT: 310495003]</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Pain in the pharynx , [SNOMED CT: 162397003]</td>
+                           <td>Active</td>
+                           <td>03/30/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Moderate major depression, single episode , [SNOMED CT: 15639000]</td>
+                           <td>Active</td>
+                           <td>03/30/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Severe major depression, single episode , [SNOMED CT: 251000119105]</td>
+                           <td>Active</td>
+                           <td>03/30/2023</td>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="e58d44ed-6d07-3d55-81a9-385759c365e7"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230616"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="7b08a683-0a63-384c-af44-9b1dd8bf3020"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230616"/>
+                           </effectiveTime>
+                           <value code="47505003" codeSystem="2.16.840.1.113883.6.96" displayName="Post-traumatic stress disorder" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="366b46ff-5884-34c9-a768-f4b8d54ededb"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230522"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="2c011ccd-d9bd-3740-be43-b693d24bc22b"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230522"/>
+                           </effectiveTime>
+                           <value code="47505003" codeSystem="2.16.840.1.113883.6.96" displayName="Post-traumatic stress disorder" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="29581148-df7e-3979-9dd7-ff3c93437a02"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230522"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="9ea3f9b0-917d-37c5-8e66-9a855ea37ea4"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230522"/>
+                           </effectiveTime>
+                           <value code="313182004" codeSystem="2.16.840.1.113883.6.96" displayName="Chronic post-traumatic stress disorder" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="11e84b05-7266-3432-83a3-da4fe93c6723"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230522"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="597016c1-658f-302a-8c9b-ee7b498bbe8d"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230522"/>
+                           </effectiveTime>
+                           <value code="310495003" codeSystem="2.16.840.1.113883.6.96" displayName="Mild depression" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="c687610c-5f2d-319b-bc4f-37c93910aa7b"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230522"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="07fdd0d7-a3d3-3b06-a17b-af772286bdcd"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230522"/>
+                           </effectiveTime>
+                           <value code="251000119105" codeSystem="2.16.840.1.113883.6.96" displayName="Severe major depression, single episode" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="af3a7c28-577a-3d43-96b3-fd1eb973329a"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230522"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="5794676a-efb4-3d18-9538-12c580b25d90"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230522"/>
+                           </effectiveTime>
+                           <value code="30605009" codeSystem="2.16.840.1.113883.6.96" displayName="Major depression in partial remission" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="a8f79fe1-42a6-3474-b1f4-bffcd57db14b"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230518"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="90bae0a1-3073-35a1-849c-9f1109272e9c"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230518"/>
+                           </effectiveTime>
+                           <value code="47505003" codeSystem="2.16.840.1.113883.6.96" displayName="Post-traumatic stress disorder" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="66f81020-e0c5-38c6-a1a4-cf19f7cf5ff1"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230518"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="469ac9db-d275-35a0-8e28-75cf9a1d4c41"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230518"/>
+                           </effectiveTime>
+                           <value code="313182004" codeSystem="2.16.840.1.113883.6.96" displayName="Chronic post-traumatic stress disorder" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="fc0a4d6d-d425-3113-a5df-7e5ef54c3adf"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230518"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="72d160e8-6b5e-31a5-8d4d-cde2f1266ba6"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230518"/>
+                           </effectiveTime>
+                           <value code="47505003" codeSystem="2.16.840.1.113883.6.96" displayName="Post-traumatic stress disorder" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="7690be99-5e06-3da9-8642-2310e294cddd"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230518"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="c3e02ef5-1439-3d40-b2ec-b9b1ec700943"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230518"/>
+                           </effectiveTime>
+                           <value code="313182004" codeSystem="2.16.840.1.113883.6.96" displayName="Chronic post-traumatic stress disorder" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="ef79becb-6679-3877-97c6-7206c8f56d6d"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230518"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="f841653b-d22e-3fd2-88b4-e05b6cfaba9a"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230518"/>
+                           </effectiveTime>
+                           <value code="47505003" codeSystem="2.16.840.1.113883.6.96" displayName="Post-traumatic stress disorder" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="587d52eb-cecf-32cd-b807-ff91a5e67b38"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230518"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="a431ede2-c230-3629-849d-75a94357e915"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230518"/>
+                           </effectiveTime>
+                           <value code="313182004" codeSystem="2.16.840.1.113883.6.96" displayName="Chronic post-traumatic stress disorder" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="b8e9da7f-df66-38bb-9418-2fc6aa9c97fc"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230518"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="cf1d1269-2bd0-307a-a6cf-e003952813cf"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230518"/>
+                           </effectiveTime>
+                           <value code="310495003" codeSystem="2.16.840.1.113883.6.96" displayName="Mild depression" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="8b7a7f6f-9652-3759-a480-6264f9435f3b"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230330"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="63b90c1b-899b-3147-802d-0b483b1e46d6"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230330"/>
+                           </effectiveTime>
+                           <value code="162397003" codeSystem="2.16.840.1.113883.6.96" displayName="Pain in the pharynx" xsi:type="CD"/>
+                           <author>
+                              <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                              <time value="202303301135-0700"/>
+                              <assignedAuthor>
+                                 <id root="2.16.840.1.113883.4.6"/>
+                                 <assignedPerson>
+                                    <name>
+                                       <given>Matt</given>
+                                       <family>Techler</family>
+                                    </name>
+                                 </assignedPerson>
+                                 <representedOrganization>
+                                    <id root="2.16.840.1.113883.19.5"/>
+                                    <name>Glendale</name>
+                                 </representedOrganization>
+                              </assignedAuthor>
+                           </author>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="ee8040d1-27ef-3e49-b1a4-8cc74b2907bd"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230330"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="ae39c952-4e1b-3e7f-bda6-e9ae8798aadb"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230330"/>
+                           </effectiveTime>
+                           <value code="15639000" codeSystem="2.16.840.1.113883.6.96" displayName="Moderate major depression, single episode" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                     <id root="2c9a2f45-8806-341e-aa24-0ddfcc881d46"/>
+                     <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230330"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                           <id root="d9e685a8-2ba2-3a03-b0f8-d17f957a8d8b"/>
+                           <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Problem">
+                              <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
+                           </code>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230330"/>
+                           </effectiveTime>
+                           <value code="251000119105" codeSystem="2.16.840.1.113883.6.96" displayName="Severe major depression, single episode" xsi:type="CD"/>
+                        </observation>
+                     </entryRelationship>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.1.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+               <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF MEDICATION USE"/>
+               <title>Medications/Supplements</title>
+               <text>
+                  <paragraph>Medications</paragraph>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Medication</th>
+                           <th>Directions</th>
+                           <th>Status</th>
+                           <th>Start Date</th>
+                           <th>Stop Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td ID="Medication1">desvenlafaxine 25 mg oral tablet, extended release [ Desvenlafaxine ]</td>
+                           <td>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</td>
+                           <td>Active</td>
+                           <td>06/26/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication2">desvenlafaxine 25 mg oral tablet, extended release [ Desvenlafaxine ]</td>
+                           <td>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</td>
+                           <td>Active</td>
+                           <td>06/16/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication3">desvenlafaxine 25 mg oral tablet, extended release [ Desvenlafaxine ]</td>
+                           <td>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</td>
+                           <td>Active</td>
+                           <td>05/23/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication4">desvenlafaxine 25 mg oral tablet, extended release [ Desvenlafaxine ]</td>
+                           <td>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</td>
+                           <td>Active</td>
+                           <td>05/23/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication5">desvenlafaxine 25 mg oral tablet, extended release [ Desvenlafaxine ]</td>
+                           <td>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</td>
+                           <td>Active</td>
+                           <td>05/22/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication6">desvenlafaxine 25 mg oral tablet, extended release [ Desvenlafaxine ]</td>
+                           <td>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication7">desvenlafaxine 25 mg oral tablet, extended release [ Desvenlafaxine ]</td>
+                           <td>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication8">desvenlafaxine 25 mg oral tablet, extended release [ Desvenlafaxine ]</td>
+                           <td>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</td>
+                           <td>Active</td>
+                           <td>05/09/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td ID="Medication9">desvenlafaxine 25 mg oral tablet, extended release [ Desvenlafaxine ]</td>
+                           <td>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</td>
+                           <td>Active</td>
+                           <td>03/30/2023</td>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Supplements</paragraph>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Supplement</th>
+                           <th>Directions</th>
+                           <th>Status</th>
+                           <th>Start Date</th>
+                           <th>Stop Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Iron and TIBC</td>
+                           <td>12.0 , Period : 12</td>
+                           <td>Active</td>
+                           <td>03/30/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Iron and TIBC</td>
+                           <td>12.0 , Period : 12</td>
+                           <td>Active</td>
+                           <td>04/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Iron and TIBC</td>
+                           <td>12.0 , Period : 12</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Daily Multivitamin without Iron CTW</td>
+                           <td>12.0 , Period : 12</td>
+                           <td>Active</td>
+                           <td>05/22/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Daily Multivitamin without Iron CTW</td>
+                           <td>12.0 , Period : 12</td>
+                           <td>Active</td>
+                           <td>05/23/2023</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Daily Multivitamin without Iron CTW</td>
+                           <td>12.0 , Period : 12</td>
+                           <td>Active</td>
+                           <td>06/16/2023</td>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="394b5c5b-177d-375a-a4eb-ba7ad835078c"/>
+                     <text>
+                        <reference value="#Medication1"/>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230626"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="1e6e06e6-26e1-3d19-8f6d-b110719e93eb"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 25 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202306261245-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="596f2200-68c0-3ea4-b1da-e8cc05620bbf"/>
+                     <text>
+                        <reference value="#Medication2"/>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230616"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="85c46eb5-7304-3400-80c7-b84fdb34d011"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 25 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202306161110-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="51476646-9148-3204-9466-222feefa8b8d"/>
+                     <text>
+                        <reference value="#Medication3"/>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230523"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="72409aed-7032-36a9-9278-6edb388fd7a0"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 25 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202305230704-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="0bf68b3c-1125-3569-92c2-0a0bd45349a7"/>
+                     <text>
+                        <reference value="#Medication4"/>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230523"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="8d3a606d-5e19-30e7-ac6f-1045c901ee89"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 25 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202305230910-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="a85d851c-d3cc-3da8-ab96-8eb3821fcd3d"/>
+                     <text>
+                        <reference value="#Medication5"/>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230522"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="1c8eee3d-43c9-3b4d-b9d5-259c64416315"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 25 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202305221102-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="962deef7-6dfd-3cc4-9f77-e832738a782e"/>
+                     <text>
+                        <reference value="#Medication6"/>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230518"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="a911f4b3-9482-37bc-9255-430debca1edf"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 25 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202305181011-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="bf3b31e3-b1df-3735-b520-fc450db0645c"/>
+                     <text>
+                        <reference value="#Medication7"/>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230518"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="d03fcadb-3882-3d9d-af98-ccab5ad4f485"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 25 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202305221119-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="78df86f2-a783-35dc-9231-d4dfa7f856b0"/>
+                     <text>
+                        <reference value="#Medication8"/>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230509"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="595c4bcf-2de7-31ae-be6b-304fea818f8c"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 25 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202305090152-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="5e88f29b-8b11-32dd-b103-cd9269fa5a1c"/>
+                     <text>
+                        <reference value="#Medication9"/>1 tablet(s) once a day before a meal  for 30 , oral route.
+
+Recommended times 8am, 2pm , 6pm.</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230330"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+                     <doseQuantity value="1"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="7c1e1bb5-a453-30aa-a11c-9996a2a14270"/>
+                           <manufacturedMaterial>
+                              <code displayName="desvenlafaxine 25 mg oral tablet, extended release" nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202303301157-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="ebd2a193-23e3-3252-bef3-f7fa1b1dde9b"/>
+                     <text>
+                        <reference value="#Supplement1"/>12.0 , Period : 12</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230330"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <doseQuantity value="12.0"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="13b151b1-c489-3434-b79f-d69404f58cf3"/>
+                           <manufacturedMaterial>
+                              <code nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="f79a37d2-c5a0-3a24-9c90-12f94377607b"/>
+                     <text>
+                        <reference value="#Supplement2"/>12.0 , Period : 12</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230418"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <doseQuantity value="12.0"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="13b151b1-c489-3434-b79f-d69404f58cf3"/>
+                           <manufacturedMaterial>
+                              <code nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="204447b5-dc4f-370e-abaa-7c996b0d6dff"/>
+                     <text>
+                        <reference value="#Supplement3"/>12.0 , Period : 12</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230518"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <doseQuantity value="12.0"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="13b151b1-c489-3434-b79f-d69404f58cf3"/>
+                           <manufacturedMaterial>
+                              <code nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="812374ff-31ed-34a5-bc80-6108dcb721cc"/>
+                     <text>
+                        <reference value="#Supplement4"/>12.0 , Period : 12</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230522"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <doseQuantity value="12.0"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="13b151b1-c489-3434-b79f-d69404f58cf3"/>
+                           <manufacturedMaterial>
+                              <code nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="cd5e8903-0499-3825-853b-b3fc15153174"/>
+                     <text>
+                        <reference value="#Supplement5"/>12.0 , Period : 12</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230523"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <doseQuantity value="12.0"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="13b151b1-c489-3434-b79f-d69404f58cf3"/>
+                           <manufacturedMaterial>
+                              <code nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                  </substanceAdministration>
+               </entry>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="INT">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                     <id root="b44f9a9d-030d-3efa-a21c-f04572b2934c"/>
+                     <text>
+                        <reference value="#Supplement6"/>12.0 , Period : 12</text>
+                     <statusCode code="active"/>
+                     <effectiveTime xsi:type="IVL_TS">
+                        <low value="20230616"/>
+                        <high nullFlavor="UNK"/>
+                     </effectiveTime>
+                     <doseQuantity value="12.0"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                           <id root="13b151b1-c489-3434-b79f-d69404f58cf3"/>
+                           <manufacturedMaterial>
+                              <code nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                  </substanceAdministration>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.14"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.14"/>
+               <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Functional Status"/>
+               <title>Functional Status</title>
+               <text>No information</text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.56"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.56"/>
+               <code code="10190-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="MENTAL STATUS"/>
+               <title>MENTAL STATUS</title>
+               <text>No information</text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.3.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+               <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RELEVANT DIAGNOSTIC TESTS AND/OR LABORATORY DATA"/>
+               <title>Lab/Image Results</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Name</th>
+                           <th>Result value</th>
+                           <th>Reference Range</th>
+                           <th>Interpretation</th>
+                           <th>Status</th>
+                           <th>Date</th>
+                           <th>Comments</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td colspan="7">Test:25-OH vitamin D</td>
+                        </tr>
+                        <tr>
+                           <td>vitamin D</td>
+                           <td>12 ng/ml</td>
+                           <td>80.0 - 120.0</td>
+                           <td>Low</td>
+                           <td>Completed</td>
+                           <td>06/16/2023</td>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <organizer classCode="BATTERY" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.1"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+                     <id root="686fb103-d916-3da3-90f7-2fef9ac9323e"/>
+                     <code displayName="TEST_NAME" nullFlavor="NI"/>
+                     <statusCode code="completed"/>
+                     <effectiveTime>
+                        <low value="20230616"/>
+                        <high value="20230616"/>
+                     </effectiveTime>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202306161012-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                     <component>
+                        <observation classCode="OBS" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.2"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                           <id root="51606ff3-317b-324e-acfd-c32eb73ff0f1"/>
+                           <code code="88684" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="vitamin D"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230616"/>
+                           </effectiveTime>
+                           <value unit="ng/ml" value="12" xsi:type="PQ"/>
+                           <interpretationCode code="L" codeSystem="2.16.840.1.113883.5.83"/>
+                           <referenceRange>
+                              <observationRange>
+                                 <value xsi:type="IVL_PQ">
+                                    <low unit="ng/ml" value="80.0"/>
+                                    <high unit="ng/ml" value="120.0"/>
+                                 </value>
+                              </observationRange>
+                           </referenceRange>
+                        </observation>
+                     </component>
+                  </organizer>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.2.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.2.1"/>
+               <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations"/>
+               <title>Immunizations</title>
+               <text>No known immunization history</text>
+               <entry>
+                  <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.52"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.52"/>
+                     <id nullFlavor="NI"/>
+                     <statusCode code="completed"/>
+                     <effectiveTime nullFlavor="NI" xsi:type="IVL_TS"/>
+                     <consumable>
+                        <manufacturedProduct classCode="MANU">
+                           <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.54"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.54"/>
+                           <manufacturedMaterial>
+                              <code nullFlavor="NI"/>
+                              <lotNumberText nullFlavor="NI"/>
+                           </manufacturedMaterial>
+                        </manufacturedProduct>
+                     </consumable>
+                  </substanceAdministration>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+               <code code="47519-4" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Procedures</title>
+               <text>No Procedure information</text>
+               <entry>
+                  <procedure classCode="PROC" moodCode="EVN">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.14"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+                     <id nullFlavor="NI"/>
+                     <code nullFlavor="NI"/>
+                     <statusCode code="completed"/>
+                  </procedure>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.22.1"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.22.1"/>
+               <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of encounters"/>
+               <title>Encounter Diagnosis</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Problem</th>
+                           <th>Status</th>
+                           <th>Date</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Mild depression , [SNOMED CT: 310495003]</td>
+                           <td>Active</td>
+                           <td>05/22/2023</td>
+                        </tr>
+                        <tr>
+                           <td>Moderate major depression, single episode , [SNOMED CT: 15639000]</td>
+                           <td>Active</td>
+                           <td>03/30/2023</td>
+                        </tr>
+                        <tr>
+                           <td>Severe major depression, single episode , [SNOMED CT: 251000119105]</td>
+                           <td>Active</td>
+                           <td>03/30/2023</td>
+                        </tr>
+                        <tr>
+                           <td>Major depression in partial remission , [SNOMED CT: 30605009]</td>
+                           <td>Active</td>
+                           <td>05/22/2023</td>
+                        </tr>
+                        <tr>
+                           <td>Post-traumatic stress disorder , [SNOMED CT: 47505003]</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                        </tr>
+                        <tr>
+                           <td>Chronic post-traumatic stress disorder , [SNOMED CT: 313182004]</td>
+                           <td>Active</td>
+                           <td>05/18/2023</td>
+                        </tr>
+                        <tr>
+                           <td>Pain in the pharynx , [SNOMED CT: 162397003]</td>
+                           <td>Active</td>
+                           <td>03/30/2023</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <encounter classCode="ENC" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <id root="11e84b05-7266-3432-83a3-da4fe93c6723"/>
+                     <code/>
+                     <effectiveTime>
+                        <low value="20230522"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <act classCode="ACT" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" xsi:type="CE"/>
+                           <entryRelationship typeCode="SUBJ">
+                              <observation classCode="OBS" moodCode="EVN">
+                                 <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <id root="597016c1-658f-302a-8c9b-ee7b498bbe8d"/>
+                                 <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                 </code>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20230522"/>
+                                 </effectiveTime>
+                                 <value code="310495003" codeSystem="2.16.840.1.113883.6.96" displayName="Mild depression" xsi:type="CD"/>
+                              </observation>
+                           </entryRelationship>
+                        </act>
+                     </entryRelationship>
+                  </encounter>
+               </entry>
+               <entry>
+                  <encounter classCode="ENC" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <id root="ee8040d1-27ef-3e49-b1a4-8cc74b2907bd"/>
+                     <code/>
+                     <effectiveTime>
+                        <low value="20230330"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <act classCode="ACT" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" xsi:type="CE"/>
+                           <entryRelationship typeCode="SUBJ">
+                              <observation classCode="OBS" moodCode="EVN">
+                                 <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <id root="ae39c952-4e1b-3e7f-bda6-e9ae8798aadb"/>
+                                 <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                 </code>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20230330"/>
+                                 </effectiveTime>
+                                 <value code="15639000" codeSystem="2.16.840.1.113883.6.96" displayName="Moderate major depression, single episode" xsi:type="CD"/>
+                              </observation>
+                           </entryRelationship>
+                        </act>
+                     </entryRelationship>
+                  </encounter>
+               </entry>
+               <entry>
+                  <encounter classCode="ENC" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <id root="2c9a2f45-8806-341e-aa24-0ddfcc881d46"/>
+                     <code/>
+                     <effectiveTime>
+                        <low value="20230330"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <act classCode="ACT" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" xsi:type="CE"/>
+                           <entryRelationship typeCode="SUBJ">
+                              <observation classCode="OBS" moodCode="EVN">
+                                 <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <id root="d9e685a8-2ba2-3a03-b0f8-d17f957a8d8b"/>
+                                 <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                 </code>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20230330"/>
+                                 </effectiveTime>
+                                 <value code="251000119105" codeSystem="2.16.840.1.113883.6.96" displayName="Severe major depression, single episode" xsi:type="CD"/>
+                              </observation>
+                           </entryRelationship>
+                        </act>
+                     </entryRelationship>
+                  </encounter>
+               </entry>
+               <entry>
+                  <encounter classCode="ENC" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <id root="af3a7c28-577a-3d43-96b3-fd1eb973329a"/>
+                     <code/>
+                     <effectiveTime>
+                        <low value="20230522"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <act classCode="ACT" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" xsi:type="CE"/>
+                           <entryRelationship typeCode="SUBJ">
+                              <observation classCode="OBS" moodCode="EVN">
+                                 <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <id root="5794676a-efb4-3d18-9538-12c580b25d90"/>
+                                 <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                 </code>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20230522"/>
+                                 </effectiveTime>
+                                 <value code="30605009" codeSystem="2.16.840.1.113883.6.96" displayName="Major depression in partial remission" xsi:type="CD"/>
+                              </observation>
+                           </entryRelationship>
+                        </act>
+                     </entryRelationship>
+                  </encounter>
+               </entry>
+               <entry>
+                  <encounter classCode="ENC" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <id root="a8f79fe1-42a6-3474-b1f4-bffcd57db14b"/>
+                     <code/>
+                     <effectiveTime>
+                        <low value="20230518"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <act classCode="ACT" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" xsi:type="CE"/>
+                           <entryRelationship typeCode="SUBJ">
+                              <observation classCode="OBS" moodCode="EVN">
+                                 <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <id root="90bae0a1-3073-35a1-849c-9f1109272e9c"/>
+                                 <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                 </code>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20230518"/>
+                                 </effectiveTime>
+                                 <value code="47505003" codeSystem="2.16.840.1.113883.6.96" displayName="Post-traumatic stress disorder" xsi:type="CD"/>
+                              </observation>
+                           </entryRelationship>
+                        </act>
+                     </entryRelationship>
+                  </encounter>
+               </entry>
+               <entry>
+                  <encounter classCode="ENC" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <id root="66f81020-e0c5-38c6-a1a4-cf19f7cf5ff1"/>
+                     <code/>
+                     <effectiveTime>
+                        <low value="20230518"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <act classCode="ACT" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" xsi:type="CE"/>
+                           <entryRelationship typeCode="SUBJ">
+                              <observation classCode="OBS" moodCode="EVN">
+                                 <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <id root="469ac9db-d275-35a0-8e28-75cf9a1d4c41"/>
+                                 <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                 </code>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20230518"/>
+                                 </effectiveTime>
+                                 <value code="313182004" codeSystem="2.16.840.1.113883.6.96" displayName="Chronic post-traumatic stress disorder" xsi:type="CD"/>
+                              </observation>
+                           </entryRelationship>
+                        </act>
+                     </entryRelationship>
+                  </encounter>
+               </entry>
+               <entry>
+                  <encounter classCode="ENC" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                     <id root="8b7a7f6f-9652-3759-a480-6264f9435f3b"/>
+                     <code/>
+                     <effectiveTime>
+                        <low value="20230330"/>
+                     </effectiveTime>
+                     <entryRelationship typeCode="SUBJ">
+                        <act classCode="ACT" moodCode="EVN">
+                           <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                           <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" xsi:type="CE"/>
+                           <entryRelationship typeCode="SUBJ">
+                              <observation classCode="OBS" moodCode="EVN">
+                                 <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                 <id root="63b90c1b-899b-3147-802d-0b483b1e46d6"/>
+                                 <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis">
+                                    <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                                 </code>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20230330"/>
+                                 </effectiveTime>
+                                 <value code="162397003" codeSystem="2.16.840.1.113883.6.96" displayName="Pain in the pharynx" xsi:type="CD"/>
+                              </observation>
+                           </entryRelationship>
+                        </act>
+                     </entryRelationship>
+                  </encounter>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId root="2.16.840.1.113883.10.20.22.2.8"/>
+               <code code="51848-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ASSESSMENTS"/>
+               <title>ASSESSMENTS</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Assessment Notes</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>05/18/2023</td>
+                           <td>Case Formulation
+Diagnoses &amp; Differentials
+Plan</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.10"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.10"/>
+               <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="Treatment plan"/>
+               <title>TREATMENT PLAN</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Notes</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>05/18/2023</td>
+                           <td>Blood Test</td>
+                        </tr>
+                        <tr>
+                           <td>05/18/2023</td>
+                           <td>CDC</td>
+                        </tr>
+                        <tr>
+                           <td>05/18/2023</td>
+                           <td>Blood Test</td>
+                        </tr>
+                        <tr>
+                           <td>05/18/2023</td>
+                           <td>CDC</td>
+                        </tr>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td>BASIC METABOLIC PANEL</td>
+                        </tr>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td>CBC w/diff</td>
+                        </tr>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td>Hepatic (Liver) Panel</td>
+                        </tr>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td>Blood cultures</td>
+                        </tr>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td>Sputum Culture</td>
+                        </tr>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td>Procalcitonin</td>
+                        </tr>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td>Rapid flu/RSV</td>
+                        </tr>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td>RVP</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="bea11cad-9160-3856-99ed-c5c17505e61a"/>
+                     <code displayName="Blood Test" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230518"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="15d42ce8-352d-3870-b4fa-482d1d83ad59"/>
+                     <code displayName="CDC" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230518"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="bea11cad-9160-3856-99ed-c5c17505e61a"/>
+                     <code displayName="Blood Test" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230518"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="15d42ce8-352d-3870-b4fa-482d1d83ad59"/>
+                     <code displayName="CDC" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230518"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="fa895ae6-b708-36a2-b66a-0eb08cd439e2"/>
+                     <code displayName="BASIC METABOLIC PANEL" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230616"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="bc7eec43-fb99-3dab-b178-824f34b4bb6f"/>
+                     <code displayName="CBC w/diff" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230616"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="f7876765-5b31-35de-bb76-e170c44bd66f"/>
+                     <code displayName="Hepatic (Liver) Panel" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230616"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="39239323-0a88-3ae1-8115-034cfa8fea64"/>
+                     <code displayName="Blood cultures" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230616"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="5291ef18-2831-3b36-87ec-28aa5bee646a"/>
+                     <code displayName="Sputum Culture" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230616"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="17221e60-a254-3861-a66d-cf92d6d89b03"/>
+                     <code displayName="Procalcitonin" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230616"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="75520509-01d4-3386-b055-f1ec88d7d043"/>
+                     <code displayName="Rapid flu/RSV" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230616"/>
+                  </observation>
+               </entry>
+               <entry>
+                  <observation classCode="OBS" moodCode="RQO">
+                     <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                     <id root="809c82d4-b358-3998-aabf-dbea9c8fa618"/>
+                     <code displayName="RVP" nullFlavor="NI"/>
+                     <statusCode code="active"/>
+                     <effectiveTime value="20230616"/>
+                  </observation>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId root="2.16.840.1.113883.10.20.22.2.60"/>
+               <code code="61146-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Goals"/>
+               <title>Goals</title>
+               <text>No records available</text>
+               <entry>
+                  <observation classCode="OBS" moodCode="GOL">
+                     <templateId root="2.16.840.1.113883.10.20.22.4.121"/>
+                     <id nullFlavor="NI"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     <text>
+                        <reference nullFlavor="NI"/>
+                     </text>
+                     <statusCode code="active"/>
+                  </observation>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.58"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.58"/>
+               <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concerns Document"/>
+               <title>Health Concerns</title>
+               <text>No information</text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.132"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.132"/>
+                     <id nullFlavor="NI"/>
+                     <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concern"/>
+                     <statusCode code="active"/>
+                     <effectiveTime nullFlavor="NI"/>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId root="2.16.840.1.113883.10.20.22.2.12"/>
+               <code code="29299-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="REASON FOR VISIT"/>
+               <title>REASON FOR VISIT</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Appointment Date</th>
+                           <th>Reason for Visit</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>05/05/2023</td>
+                           <td>${Encounter.Date}</td>
+                        </tr>
+                        <tr>
+                           <td>05/18/2023</td>
+                           <td>patient suffering head pain</td>
+                        </tr>
+                        <tr>
+                           <td>05/18/2023</td>
+                           <td>patient suffering from back pain</td>
+                        </tr>
+                        <tr>
+                           <td>05/22/2023</td>
+                           <td>patient has knee pain</td>
+                        </tr>
+                        <tr>
+                           <td>05/23/2023</td>
+                           <td>patient has pain</td>
+                        </tr>
+                        <tr>
+                           <td>05/23/2023</td>
+                           <td>suffers from back pain</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.23"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.23"/>
+               <code code="46264-8" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Implants</title>
+               <text>No implanted devices</text>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2014-06-09" root="1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+               <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+               <code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="REASON FOR REFERRAL"/>
+               <title>REASON FOR REFERRAL</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Referred To</th>
+                           <th>Reason for Referral</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td>Pritesh Patel</td>
+                           <td>test</td>
+                        </tr>
+                        <tr>
+                           <td>06/19/2023</td>
+                           <td>Pritesh Patel</td>
+                           <td>test</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <act classCode="PCPR" moodCode="RQO">
+                     <templateId root="2.16.840.1.113883.10.20.22.4.140"/>
+                     <id root="531d5662-5355-3f4f-a7a5-48b4a8b6c63b"/>
+                     <code code="44383000" codeSystem="2.16.840.1.113883.6.96" displayName="Patient referral for consultation"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230616"/>
+                     </effectiveTime>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="20230616"/>
+                        <assignedAuthor>
+                           <id root="30b99672-2070-381e-967d-8c4293577c5e"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <telecom use="HP" value="tel:+1(833)-986-0106"/>
+                              <addr use="WP">
+                                 <streetAddressLine>300 Commerce St.</streetAddressLine>
+                                 <city>Nashvile</city>
+                                 <state>CA</state>
+                                 <postalCode>12344-5565</postalCode>
+                                 <country>US</country>
+                              </addr>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="PCPR" moodCode="RQO">
+                     <templateId root="2.16.840.1.113883.10.20.22.4.140"/>
+                     <id root="ad970abe-bb7d-3ec5-a84e-0c13758702c9"/>
+                     <code code="44383000" codeSystem="2.16.840.1.113883.6.96" displayName="Patient referral for consultation"/>
+                     <statusCode code="active"/>
+                     <effectiveTime>
+                        <low value="20230619"/>
+                     </effectiveTime>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="20230619"/>
+                        <assignedAuthor>
+                           <id root="30b99672-2070-381e-967d-8c4293577c5e"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <telecom use="HP" value="tel:+1(833)-986-0106"/>
+                              <addr use="WP">
+                                 <streetAddressLine>300 Commerce St.</streetAddressLine>
+                                 <city>Nashvile</city>
+                                 <state>CA</state>
+                                 <postalCode>12344-5565</postalCode>
+                                 <country>US</country>
+                              </addr>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.2.65"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.65"/>
+               <code code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Consultation Note"/>
+               <title>Notes section</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Consultation Note</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>06/16/2023</td>
+                           <td ID="consultationNote_1">
+Patient: Brock Purdy
+Ref Provider: 
+DX codes
+Post-traumatic stress disorder, unspecified [F43.10] .
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <code code="34109-9" codeSystem="2.16.840.1.113883.6.1">
+                        <translation code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     </code>
+                     <text>
+                        <reference value="#consultationNote_1"/>
+                     </text>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230616"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202306161130-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+            </section>
+         </component>
+         <component>
+            <section>
+               <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.2.65"/>
+               <templateId root="2.16.840.1.113883.10.20.22.2.65"/>
+               <code code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History and Physical Note"/>
+               <title>Notes section</title>
+               <text>
+                  <table border="1" width="100%">
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Notes Type</th>
+                           <th>Summary Note</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>05/18/2023</td>
+                           <td>History of Present Illness</td>
+                           <td ID="historyNote_1">Psychiatric Review of Systems
+Over-Time Symptom Tracking
+Depression average over 2 weeks -- 10 Anxiety average over 2 weeks -- 10 Irritability average over 2 weeks -- 10 Psychiatric History
+Psychiatric Diagnoses  
+Hospitalizations  
+Suicide Attempts  
+Self-harming, non-suicidal behavior  
+Past Medication Trials  
+Current Medications  
+Violence/Property Destruction  
+Outpatient MH Treatment Hx  
+Neuropsychiatric/Genetic Testing  
+Sexual Offending Hx  
+Substance Use
+Tobacco/Nicotine    ⁃ Current    ⁃ Past    ⁃ Cigarettes       ⁃ 1/2 pack per day    ⁃ Chewing tobacco       ⁃ 2 can per day Caffeine    ⁃ Greater than 400 mg/day       ⁃ 2 or more energy drinks    ⁃ Caffeine after 3pm Alcohol    ⁃ Beer    ⁃ Wine    ⁃ Liquor    ⁃ Social/Occasional Drinking    ⁃ Dailly Drinking    ⁃ Weekly Drinking Illicit Substances    ⁃ Cocaine    ⁃ Heroin    ⁃ Methamphetamine    ⁃ Amphetamines    ⁃ Mushrooms    ⁃ PCP    ⁃ Ectasy    ⁃ Designer drugs Marijuana    ⁃ Multiple times per day</td>
+                        </tr>
+                        <tr>
+                           <td>05/18/2023</td>
+                           <td>Review of Systems</td>
+                           <td ID="historyNote_2">PCP Name &amp;amp; Last Exam Date  
+Medical Diagnoses  
+Current Primary Care Medications  
+Medication Allergies  
+Relevant Surgeries  
+Abnormal Labs  
+Mental Status Exam
+Appearance and Behavior Cooperative Good eye contact Well groomed Appropriate interactions Ambivalent Cachexia
+Cognition Oriented x 3 Alert Coma Disoriented to person
+Affect Appropriate Congruent with mood
+Motor WNL Memory Recent - Intact Remote - Intact
+Judgment Intact Insight Intact Speech Normal Attention and Concentration Intact Thought Content NO suicidal ideation NO homicidal ideation
+Perceptual Disturbances NO perceptual disturbances Thought Process Linear</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <code code="34109-9" codeSystem="2.16.840.1.113883.6.1">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     </code>
+                     <text>
+                        <reference value="#historyNote_1"/>
+                     </text>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230518"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202305181126-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+               <entry>
+                  <act classCode="ACT" moodCode="EVN">
+                     <templateId extension="2016-11-01" root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <templateId root="2.16.840.1.113883.10.20.22.4.202"/>
+                     <code code="34109-9" codeSystem="2.16.840.1.113883.6.1">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                     </code>
+                     <text>
+                        <reference value="#historyNote_2"/>
+                     </text>
+                     <statusCode code="completed"/>
+                     <effectiveTime value="20230518"/>
+                     <author>
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                        <time value="202305181126-0700"/>
+                        <assignedAuthor>
+                           <id root="2.16.840.1.113883.4.6"/>
+                           <assignedPerson>
+                              <name>
+                                 <given>Matt</given>
+                                 <family>Techler</family>
+                              </name>
+                           </assignedPerson>
+                           <representedOrganization>
+                              <id root="2.16.840.1.113883.19.5"/>
+                              <name>Glendale</name>
+                           </representedOrganization>
+                        </assignedAuthor>
+                     </author>
+                  </act>
+               </entry>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</ClinicalDocument>

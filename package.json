@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@amida-tech/blue-button": "^1.10.9",
+    "cli": "^1.0.1",
+    "fs": "^0.0.1-security"
+  }
+}
